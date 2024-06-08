@@ -1,0 +1,7 @@
+1. Questão de SQL:
+    ◦ Descrição: Escreva uma consulta SQL que selecione todos os usuários com idade maior que 30 de uma tabela chamada usuarios.
+    
+Solução:
+
+SELECT * FROM usuarios
+WHERE idade > 30;
