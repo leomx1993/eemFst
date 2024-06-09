@@ -51,20 +51,21 @@ body, html {
 }
 
 .ltf-add-task-container {
-	z-index: 2;
+	width: 500px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	z-index: 2;
 	position: absolute;
 	top: 28%;
-	width: 500px;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 	padding: 1rem;
 	border: 1px solid black;
 	background-color: #FFFFFF;
 	border-radius: 10px;
 	overflow: auto;
+	padding-bottom: 30px;
 }
 
 .ltf-add-task-tt-desc-container {
@@ -96,8 +97,10 @@ body, html {
 }
 
 .ltf-add-task-inp::placeholder {
-	text-align: left; 
-}
+	text-align: left;
+	color: rgba(128, 128, 128, 0.5);
+  }
+  
 
 .ltf-add-task-desc-inp-container {
 	margin-top: 20px;
@@ -222,7 +225,11 @@ th {
 }
 
 #desc {
-	width: 100px;
+	width: 500px;
+}
+
+#title {
+	width: 200px;
 }
 
 input {
