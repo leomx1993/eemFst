@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './ListaDeTarefas.css';
+import './ListadeTarefas.css';
 
 function ListaDeTarefas() {
   const [addingTask, setAddingTask] = useState<boolean>(false);
@@ -83,7 +83,7 @@ function ListaDeTarefas() {
                 <tr>
                   <th id='text-header'>Número</th>
                   <th id='text-header'>Título</th>
-                  <th id='text-header'>Descrição</th>
+                  <th className= 'desc' id='text-header'>Descrição</th>
                   <th id='text-header'>Status</th>
                   <th>
                     Marcar como concluido
